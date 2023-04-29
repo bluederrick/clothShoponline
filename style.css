@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+
+:root{
+    --primarycolor: rgb(223, 60, 60);
+
+}
+
+nav{
+    width: 100%;
+    height:50px;
+ background-color: var(--primarycolor);
+ display: flex;
+ align-items: center;
+ justify-content: center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 200px;
+    border-radius: 5px;box-shadow:0 7px 10px rgb(162, 155, 155);
+}
+img::before{
+    content: '';
+    z-index: -1;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cards{
+    width: 300px;
+    margin: 2rem; 
+    font-family: inherit;
+    cursor: pointer;
+
+}
+.title{
+     display:flex; 
+    flex-direction: column;
+    margin-top: 5px; 
+    align-items: flex-start;
+}
+button{
+    
+    margin: 5px;
+    padding:2px 15px;
+    margin-left: 0;background-color: brown;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.price{
+    margin-bottom: 8px;
+}
